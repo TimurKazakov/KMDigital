@@ -1,0 +1,54 @@
+$font-stack: Montserrat,  "Helvetica Neue", sans-serif;
+
+//@import "./bootstrap.css";
+//@import "./bootstrap-grid.css";
+//@import "./bootstrap-reboot.css";
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import "bloсks/header";
+@import "bloсks/main";
+@import "bloсks/footer";
+
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+}
+
+body {
+  animation: all 0.2 ease-in;
+  font-family: $font-stack;
+  .container {
+    img {
+
+    }
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .container{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+.btn{
+  color: #666666;
+  padding: 10px;
+  width: 180px;
+  border-radius: 5px;
+  background: transparent;
+  font-weight: 700;
+  outline: none;
+}
+
+}
